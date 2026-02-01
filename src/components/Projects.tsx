@@ -19,13 +19,82 @@ interface FeatureProps {
 
 export const features: FeatureProps[] = [
   {
-    project: "Jig Fixing Unit",
-    role: "Embedded Firmware Engineer (MCU)",
-    date: "06/2020 – 10/2020",
+    project: "Multi-Robot Configuration & Real-Time Monitoring - Desktop App",
+    role: "Robotics Software Engineer (Qt/C++)",
+    date: "03/2023 – Present",
     responsibilities:
-      "Programmed PIC16F firmware for the jig fixing unit to move to precise position using a DC motor and sensors. Improved the schematic by adding a current sensor to monitor motor current for protection and diagnostics.",
+      "Designed a scalable software architecture and functional modules. Developed UI graphics for robot configuration and monitoring. Designed and implemented communication APIs using TCP/IP, MQTT, HTTP (REST APIs) and WebSocket. Collaborated with the embedded team to design and implement new features.",
     results: "Production.",
-    techStack: ["Embedded C", "PIC16F", "KiCad"],
+    techStack: [
+      "Qt",
+      "C++",
+      "OOP & Design Patterns",
+      "TCP/IP",
+      "MQTT",
+      "HTTP / REST APIs",
+      "WebSocket",
+    ],
+  },
+  {
+    project: "Multi-Robot Management - Local Backend App",
+    role: "Robotics Software Engineer (Qt/C++)",
+    date: "04/2024 – Present",
+    responsibilities:
+      "Designed a scalable software architecture for manage and realtime communication 20+ robtos and 20+ devices. Designed and implemented communication APIs using TCP/IP, MQTT, HTTP (REST APIs) and WebSocket; authentication and authorization (JWT-like).",
+    results: "Production.",
+    techStack: [
+      "Qt",
+      "C++",
+      "OOP & Design Patterns",
+      "Multithreading & Concurrency",
+      "TCP/IP",
+      "SQLite",
+      "MQTT",
+      "HTTP / REST APIs",
+      "WebSocket",
+    ],
+  },
+  {
+    project: "Multi-Robot Management & Real-Time Monitoring - Web App",
+    role: "Robotics Software Engineer (Frontend Developer)",
+    date: "01/2025 – Present",
+    responsibilities:
+      "Clone desktop app to web app using ReactJS + TypeScript, Tailwind CSS and Shadcn/ui. Implemented communication APIs using HTTP (REST APIs) and WebSocket.",
+    results: "Developing.",
+    techStack: [
+      "ReactJS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn/ui",
+      "HTTP / REST APIs",
+      "WebSocket",
+    ],
+  },
+  {
+    project:
+      "Personal Device Assistance for Calling and Registration Robot - Mobile App",
+    role: "Robotics Software Engineer (Mobile App Developer)",
+    date: "06/2025 – Present",
+    responsibilities:
+      "Developed mobile applications for robot calling and task/mission registration. Implemented communication APIs using MQTT, HTTP (REST APIs) and WebSocket.",
+    results: "Developing.",
+    techStack: ["Flutter", "REST APIs", "WebSocket", "MQTT"],
+  },
+  {
+    project: "AMR Robot - Embedded Firmware",
+    role: "Robotics / Embedded Firmware Engineer",
+    date: "05/2022 – 06/2023",
+    responsibilities:
+      "Programmed STM32 firmware for Controller Board and Power Safety Boards. Implemented motion tracking algorithms for controling robot position. Managed peripherals (Strip LED RGB, speaker, servo motors, BMS, ultrasonic sensors, LiDAR, etc.). Communicated with the IPC via TCP/IP and with devices via Modbus RTU (RS485/RS232). Make electrical integration drawings. Built C# (WinForms) terminal tools for testing/debugging.",
+    results: "Released version 1.0.",
+    techStack: [
+      "Embedded C/C++",
+      "STM32F4",
+      "TCP/IP & UDP",
+      "RS232 / RS485",
+      "Modbus RTU",
+      "C# WinForms",
+    ],
   },
   {
     project: "Robot 3-Axis",
@@ -46,84 +115,13 @@ export const features: FeatureProps[] = [
     techStack: ["Embedded C/C++", "STM32H7", "Stepper Motors"],
   },
   {
-    project: "AMR Robot - Embedded Firmware",
-    role: "Robotics / Embedded Firmware Engineer",
-    date: "05/2022 – 06/2023",
+    project: "Jig Fixing Unit",
+    role: "Embedded Firmware Engineer (MCU)",
+    date: "06/2020 – 10/2020",
     responsibilities:
-      "Programmed STM32 firmware for Controller Board and Power Safety Boards. Implemented motion tracking algorithms for controling robot position. Managed peripherals (Strip LED RGB, speaker, servo motors, BMS, ultrasonic sensors, LiDAR, etc.). Communicated with the IPC via TCP/IP and with devices via Modbus RTU (RS485/RS232). Make electrical integration drawings. Built C# (WinForms) terminal tools for testing/debugging.",
-    results: "Released version 1.0.",
-    techStack: [
-      "Embedded C/C++",
-      "STM32F4",
-      "TCP/IP & UDP",
-      "RS232 / RS485",
-      "Modbus RTU",
-      "C# WinForms",
-    ],
-  },
-  {
-    project: "Multi-Robot Management & Real-Time Monitoring - Desktop App",
-    role: "Robotics Software Engineer (Qt/C++)",
-    date: "03/2023 – Present",
-    responsibilities:
-      "Defined software architecture and functional modules. Implemented, debugged, and integrated; designed robot communication APIs via TCP/IP, MQTT, and WebSocket.",
-    results: "Internally validated and demoed; sold to multiple customers.",
-    techStack: [
-      "Qt",
-      "C++",
-      "OOP & Design Patterns",
-      "Multithreading & Concurrency",
-      "TCP/IP",
-      "SQLite",
-      "MQTT",
-      "HTTP / REST APIs",
-      "WebSocket",
-    ],
-  },
-  {
-    project:
-      "Multi-Robot Management & Real-Time Monitoring - Local Backend App",
-    role: "Robotics Software Engineer (Qt/C++)",
-    date: "04/2024 – Present",
-    responsibilities:
-      "Gathered requirements from manager/customers to designed software features. Defined software architecture and functional modules. Implemented, debugged, and integrated; designed robot communication APIs via TCP/IP, MQTT, and WebSocket.",
-    results: "Internally validated and demoed; sold to multiple customers.",
-    techStack: [
-      "Qt",
-      "C++",
-      "OOP & Design Patterns",
-      "Multithreading & Concurrency",
-      "TCP/IP",
-      "SQLite",
-      "MQTT",
-      "HTTP / REST APIs",
-      "WebSocket",
-    ],
-  },
-  {
-    project: "Multi-Robot Management & Real-Time Monitoring - Web App",
-    role: "Robotics Software Engineer (Frontend Developer)",
-    date: "01/2025 – Present",
-    responsibilities:
-      "Proposed and designed features; contributed to system architecture; implemented and debugged; integrated robot communication via TCP/IP, MQTT, and WebSocket; designed and integrated REST APIs for web features.",
-    results: "Internally validated.",
-    techStack: [
-      "ReactJS",
-      "TypeScript",
-      "Tailwind CSS",
-      "REST APIs",
-      "WebSocket",
-    ],
-  },
-  {
-    project:
-      "Personal Device Assistance for Calling and Registration Robots - Mobile App",
-    role: "Robotics Software Engineer (Mobile App Developer)",
-    date: "06/2025 – Present",
-    responsibilities:
-      "Proposed and designed features; contributed to overall architecture; implemented and debugged; integrated with robot/fleet services via REST APIs and real-time channels (WebSocket/MQTT) to call robots and register missions.",
-    results: "Internally validated.",
-    techStack: ["Flutter", "REST APIs", "WebSocket", "MQTT"],
+      "Programmed PIC16F firmware for the jig fixing unit to move to precise position using a DC motor and sensors. Improved the schematic by adding a current sensor to monitor motor current for protection and diagnostics.",
+    results: "Production.",
+    techStack: ["Embedded C", "PIC16F", "KiCad"],
   },
 ];
 
@@ -144,8 +142,8 @@ const featureList: string[] = [
 
 export const Projects = () => {
   return (
-    <section id="projects" className="container py-24 sm:py-32 space-y-8">
-      <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
+    <section id="projects" className="container py-10 sm:py-15 space-y-8">
+      <h2 className="text-3xl md:text-4xl font-bold md:text-center">
         My{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Projects
@@ -166,7 +164,7 @@ export const Projects = () => {
         {features.map((project: FeatureProps, i) => (
           <Card key={i}>
             <CardHeader>
-              <CardTitle>{project.project}</CardTitle>
+              <CardTitle className="text-lg">{project.project}</CardTitle>
             </CardHeader>
 
             <CardDescription className="px-4 -mt-2 mb-2 text-sm text-muted-foreground">

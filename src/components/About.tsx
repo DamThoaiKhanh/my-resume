@@ -1,25 +1,18 @@
-import pilot from "../assets/pilot.png";
-
 export const About = () => {
   return (
-    <section id="about" className="container py-24 sm:py-32">
+    <section id="about" className="container py-10 sm:py-15">
       <div className="bg-muted/50 border rounded-lg py-12">
-        <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <img
-            src={pilot}
-            alt=""
-            className="w-[300px] object-contain rounded-lg"
-          />
+        <div className="px-6 flex flex-col-reverse md:flex-row gap-5 md:gap-8">
           <div className="bg-green-0 flex flex-col justify-between items-center">
             <div className="pb-6">
-              <h2 className="text-3xl md:text-4xl font-bold">
+              <h2 className="text-3xl md:text-4xl font-bold md:text-center">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
                 Me
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Robotics / AMR Software Engineer with hands-on experience
+                I am a Robotics / AMR Software Engineer with hands-on experience
                 building control and monitoring applications for AMR robots.
                 Strong focus on Qt/C++ (OOP, Design Patterns, SOLID principles),
                 multithreaded programming, and system-level design. Experienced

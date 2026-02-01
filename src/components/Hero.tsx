@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section
       id="home"
-      className="container py-20 md:py-32 flex flex-col items-center justify-center"
+      className="container py-10 md:py-15 flex flex-col items-center justify-center"
     >
       <div className="flex flex-col items-center text-center space-y-6 max-w-3xl">
         <main className="text-5xl md:text-6xl font-bold">
@@ -23,12 +23,13 @@ export const Hero = () => {
 
         <p className="text-xl text-muted-foreground">
           High-performance Qt/C++ applications for multi-robot control,
-          configuration, and real-time monitoring.
+          configuration, and real-time monitoring using TCP/IP, MQTT, HTTP (REST
+          APIs), and WebSocket.
         </p>
 
         <p className="text-xl text-muted-foreground">
-          Experience across the robot stack: backend + web/mobile monitoring,
-          and embedded STM32 (C) integration.
+          Experience across the robot stack: Desktop app + backend + web/mobile
+          monitoring, and embedded firmware for STM32 (C).
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 pt-2">
